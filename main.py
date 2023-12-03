@@ -20,7 +20,7 @@ for url in urls:
 with open(output_file, 'w') as file:
     file.write('\n'.join(responsive_urls))
 
-
+    
 
 print(f"Responsive URLs written to {output_file}")
 
