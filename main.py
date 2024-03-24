@@ -9,7 +9,7 @@ with open(input_file, 'r') as file :
 
 responsive_urls = []
 
-for url in urls:
+for url in urls: 
     
     try:
         subprocess.check_output(['ping', '-c', '1', url])  # Ping the URL
