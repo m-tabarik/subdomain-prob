@@ -17,7 +17,7 @@ for url in urls:
     except subprocess.CalledProcessError:
         pass  # Ignore if the URL is unresponsive  
 
-with open(output_file, 'w') as file:
+with open(output_file, 'w') as file: 
     file.write('\n'.join(responsive_urls))
 
     
