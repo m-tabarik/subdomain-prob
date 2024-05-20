@@ -14,7 +14,7 @@ for url in urls:
     try:
         subprocess.check_output(['ping', '-c', '1', url])  # Ping the URL   
         responsive_urls.append(url)
-    except subprocess.CalledProcessError:
+    except subprocess.CalledProcessError:  
         pass  # Ignore if the URL is unresponsive  
 
 with open(output_file, 'w') as file: 
