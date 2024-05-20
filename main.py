@@ -12,7 +12,7 @@ responsive_urls = []
 for url in urls: 
     
     try:
-        subprocess.check_output(['ping', '-c', '1', url])  # Ping the URL
+        subprocess.check_output(['ping', '-c', '1', url])  # Ping the URL   
         responsive_urls.append(url)
     except subprocess.CalledProcessError:
         pass  # Ignore if the URL is unresponsive  
