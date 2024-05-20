@@ -7,7 +7,7 @@ output_file = 'responsive_urls.txt'  # Path to the output file for  responsive U
 with open(input_file, 'r') as file :
     urls = file.read().splitlines()
 
-responsive_urls = []
+responsive_urls = [] 
 
 for url in urls: 
     
