@@ -8,7 +8,7 @@ with open(input_file, 'r') as file :
     urls = file.read().splitlines()
 
 responsive_urls = [] 
-    
+     
 for url in urls: 
       
     try:
