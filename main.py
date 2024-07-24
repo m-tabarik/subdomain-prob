@@ -1,6 +1,6 @@
 import subprocess
 
-
+# import librararies as required./
 input_file = 'urls.txt'  # Path to the input file containing URLs
 output_file = 'responsive_urls.txt'  # Path to the output file for  responsive URLs
 
